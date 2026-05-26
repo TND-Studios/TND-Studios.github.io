@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Polygon Paradise — TND Studios</title>
+  <meta name="description" content="Polygon Paradise: a futuristic city-builder auto-battler from TND Studios. Build your skyline, command your defenders, and survive every wave." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">
+        <span class="mark">TND</span>
+        <span>TND Studios</span>
+      </a>
+      <nav class="nav-links">
+        <a class="desktop-only" href="index.html#about">About</a>
+        <a class="desktop-only" href="index.html#locations">Studios</a>
+        <div class="dropdown">
+          <button aria-haspopup="true" aria-expanded="false">Apps</button>
+          <div class="dropdown-menu" role="menu">
+            <a href="polygon-paradise.html" role="menuitem">
+              <span class="app-icon">🏙️</span>
+              <span>
+                <span class="app-name">Polygon Paradise</span><br />
+                <span class="app-desc">Futuristic city-builder auto-battler</span>
+              </span>
+            </a>
+          </div>
+        </div>
+        <a class="btn btn-primary" href="#">Play Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Detail hero -->
+  <section class="wrap detail-hero">
+    <div>
+      <a class="back-link" href="index.html">← Back to TND Studios</a>
+      <span class="eyebrow">Now Available</span>
+      <h1><span class="gradient-text">Polygon</span> Paradise</h1>
+      <p class="lead" style="color: var(--muted); margin: 0 0 28px;">
+        A futuristic city-builder auto-battler. Sculpt a neon skyline, automate its
+        defenses, and watch your strategy come alive as wave after wave tests
+        everything you've built.
+      </p>
+      <div class="tag-row">
+        <span class="tag">City Builder</span>
+        <span class="tag">Auto Battler</span>
+        <span class="tag">Futuristic</span>
+        <span class="tag">Strategy</span>
+      </div>
+      <div class="hero-actions" style="justify-content:flex-start;">
+        <a class="btn btn-primary" href="#">Play Now</a>
+        <a class="btn btn-ghost" href="#features">See Features</a>
+      </div>
+    </div>
+    <div class="art"><span class="city">🏙️</span></div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="section-alt">
+    <div class="wrap">
+      <h2 class="section-title">How you <span class="gradient-text">play</span></h2>
+      <p class="section-sub">Two halves of one addictive loop: build, then battle.</p>
+      <div class="feature-list">
+        <div class="fitem">
+          <span class="ico">🏗️</span>
+          <div>
+            <h4>Build a city from the future</h4>
+            <p>Lay out districts, power grids, and towering arcologies on a sleek polygonal world. Every building you place feeds your economy — and your army.</p>
+          </div>
+        </div>
+        <div class="fitem">
+          <span class="ico">⚔️</span>
+          <div>
+            <h4>Auto-battles, real decisions</h4>
+            <p>Your units fight on their own, so victory is won at the planning table. Position, upgrade, and synergize your defenders before the wave hits.</p>
+          </div>
+        </div>
+        <div class="fitem">
+          <span class="ico">🔋</span>
+          <div>
+            <h4>Economy meets warfare</h4>
+            <p>Balance growth against defense. Pour resources into expansion or fortify your front line — the paradise only survives if you get the mix right.</p>
+          </div>
+        </div>
+        <div class="fitem">
+          <span class="ico">🌌</span>
+          <div>
+            <h4>Endless escalation</h4>
+            <p>Each wave grows smarter and stronger. Push your build deeper, unlock new tech, and chase the high score across an ever-rising challenge.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section>
+    <div class="wrap">
+      <div class="cta-band">
+        <h2>Your paradise is waiting</h2>
+        <p>Build it. Defend it. Make it legendary.</p>
+        <a class="btn btn-primary" href="#">Play Polygon Paradise</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="wrap footer-inner">
+      <div class="brand">
+        <span class="mark">TND</span>
+        <span>TND Studios</span>
+      </div>
+      <div class="footer-links">
+        <a href="index.html#about">About</a>
+        <a href="index.html#locations">Studios</a>
+        <a href="polygon-paradise.html">Polygon Paradise</a>
+      </div>
+      <div>© <span id="year"></span> TND Studios · California &amp; Texas</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -45,60 +45,74 @@
 
     <h2>Information we collect</h2>
     <p>We keep data collection to the minimum needed to run each Game. We do <strong>not</strong> ask
-      for your real name, email address, or phone number to play.</p>
+      for your real name, email address, or phone number to play, and we do not collect precise
+      location, contacts, or photos in any Game.</p>
     <ul>
-      <li><strong>Account identifier.</strong> Some Games (such as Mahjong Duel) create an anonymous
-        account with a randomly generated ID when you first play. It is not tied to your personal
-        identity.</li>
-      <li><strong>Profile and gameplay data.</strong> Information such as a username you choose, your
-        rating, wins and losses, match results, and your friends list.</li>
-      <li><strong>Connection data.</strong> For online multiplayer, technical connection information
-        (such as your IP address) is processed by our realtime networking provider for matchmaking and
-        relaying game data.</li>
-      <li><strong>Advertising and analytics data (ad-supported Games only).</strong> Some Games (such
-        as Polygon Paradise) display third-party ads and use analytics. In those Games, our partners
-        may collect a device advertising identifier and app-usage/diagnostic data to serve and measure
-        ads and to understand how the Game is used. Ad-free Games (such as Mahjong Duel) do
-        <strong>not</strong> include advertising, analytics, or tracking.</li>
+      <li><strong>Account identifier.</strong> Games create an anonymous account with a randomly
+        generated ID when you first play (Mahjong Duel via Google Firebase; Polygon Paradise via Unity
+        Authentication). It is not tied to your real-world identity.</li>
+      <li><strong>Profile and gameplay data.</strong> A username/nickname you choose and gameplay data
+        (for example, in Mahjong Duel: rating, wins/losses, match results, and friends; in Polygon
+        Paradise: loadout, trophies, and battle/defense logs), stored against your anonymous account.</li>
+      <li><strong>Connection data.</strong> Technical connection information such as your IP address is
+        processed by our networking and service providers for multiplayer, matchmaking, and fraud
+        prevention.</li>
+      <li><strong>Advertising identifier (ad-supported Games only).</strong> Ad-supported Games (such as
+        Polygon Paradise) use third-party ad networks that may access your device advertising identifier
+        (IDFA on iOS, Advertising ID on Android) and ad-interaction data to serve and measure ads,
+        including ad targeting across apps. Ad-free Games (such as Mahjong Duel) do <strong>not</strong>
+        include advertising or tracking.</li>
     </ul>
-    <p>We do not collect precise location, contacts, or photos.</p>
+    <p>We do not use separate crash-reporting or analytics SDKs.</p>
 
     <h2>How we use information</h2>
-    <p>We use information to operate and improve the Games: to create accounts, run online matches and
-      matchmaking, maintain leaderboards and rankings, power the friends feature, keep the Games working
-      and secure, and — in ad-supported Games only — to display and measure advertising. We do
-      <strong>not</strong> sell your personal information.</p>
+    <p>We use information to operate and improve the Games: to create anonymous accounts, run online
+      play and matchmaking, save progress, maintain leaderboards and rankings, power social features,
+      keep the Games working and secure, and — in ad-supported Games only — to display and measure
+      advertising. We do <strong>not</strong> sell your personal information.</p>
 
-    <h2>Advertising (ad-supported Games)</h2>
-    <p>Ad-supported Games (such as Polygon Paradise) use third-party advertising and analytics
-      providers — for example <strong>Google AdMob</strong> and <strong>Google Analytics for
-      Firebase</strong> — which may use a device advertising identifier and usage data to show and
-      measure ads. You can limit ad personalization in your device settings (iOS: Settings → Privacy &amp;
-      Security → Tracking / Apple Advertising), and where required we will ask for your consent before
-      tracking. Ad-free Games do not use these.</p>
+    <h2>Advertising and tracking (ad-supported Games)</h2>
+    <p>Ad-supported Games (such as Polygon Paradise) show ads through <strong>ironSource LevelPlay</strong>
+      (ad mediation) and <strong>Unity Ads</strong>. These partners may use your <strong>device
+      advertising identifier</strong> and ad-interaction data to serve and measure ads and for ad
+      targeting across apps.</p>
+    <ul>
+      <li>On <strong>iOS</strong>, we ask your permission (App Tracking Transparency) before using your
+        advertising identifier for tracking; change it anytime in Settings → Privacy &amp; Security →
+        Tracking.</li>
+      <li>On <strong>Android</strong>, you can reset or delete your Advertising ID in your device
+        settings.</li>
+      <li>Where required (e.g. EU/UK/California), we present a consent choice for personalized ads.</li>
+    </ul>
+    <p>Ad-free Games (such as Mahjong Duel) do not use advertising or tracking.</p>
 
     <h2>Service providers</h2>
     <ul>
-      <li><strong>Google Firebase</strong> — accounts and database. See the
+      <li><strong>Google Firebase</strong> — anonymous accounts and database (Mahjong Duel). See the
         <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
-      <li><strong>Photon / Exit Games</strong> — realtime multiplayer. See the
+      <li><strong>Photon / Exit Games</strong> — realtime multiplayer (Mahjong Duel). See the
         <a href="https://www.photonengine.com/en-US/Photon/Legal">Photon Privacy Policy</a>.</li>
-      <li><strong>Advertising/analytics partners</strong> (ad-supported Games only), such as
-        <strong>Google AdMob</strong> and <strong>Google Analytics for Firebase</strong>. See the
-        <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
+      <li><strong>Unity Gaming Services</strong> — anonymous authentication, cloud save, and
+        leaderboards (Polygon Paradise). See the
+        <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Unity Privacy Policy</a>.</li>
+      <li><strong>ironSource LevelPlay</strong> and <strong>Unity Ads</strong> — advertising in
+        ad-supported Games. See the <a href="https://www.is.com/privacy-policy/">ironSource Privacy
+        Policy</a> and the
+        <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Unity Privacy Policy</a>.</li>
     </ul>
 
     <h2>Data retention and deletion</h2>
-    <p>We keep your account data while your account exists. Where a Game supports accounts (such as
-      Mahjong Duel), you can <strong>permanently delete your account and its associated data at any time
-      from within the Game</strong> (Settings → Delete account). This removes your profile, username,
-      and friends connections. Completed match records may be retained in anonymized, aggregate form as
-      part of game history.</p>
+    <p>We keep your account data while your account exists. Where a Game supports in-app account deletion
+      (such as Mahjong Duel: Settings → Delete account), you can <strong>permanently delete your account
+      and its associated data at any time</strong> — this removes your profile, username, and friends
+      connections. For other Games, or to request deletion of data tied to your anonymous account,
+      contact us at the address below. Completed match records may be retained in anonymized, aggregate
+      form as part of game history.</p>
 
     <h2>Children's privacy</h2>
-    <p>The Games are not directed to children under <strong>13</strong>, and we do not knowingly collect
-      personal information from children under 13. If you believe a child has provided information,
-      contact us and we will delete it.</p>
+    <p>The Games are intended for a general audience and are <strong>not directed to children under
+      13</strong>, and we do not knowingly collect personal information from children under 13. If you
+      believe a child has provided information, contact us and we will delete it.</p>
 
     <h2>Security</h2>
     <p>We use reasonable measures to protect your information, but no method of transmission or storage
@@ -109,7 +123,8 @@
       do.</p>
 
     <h2>Contact</h2>
-    <p>Questions about this policy? Contact us at <strong>studiostnd@gmail.com</strong>.</p>
+    <p>Questions about this policy, or to request data deletion? Contact us at
+      <strong>studiostnd@gmail.com</strong>.</p>
   </main>
 
 </body>
